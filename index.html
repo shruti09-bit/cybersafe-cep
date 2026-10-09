@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CyberSafe CEP campaign: learn password hygiene, online privacy, and personal data protection.">
+  <title>CyberSafe | Digital Safety Campaign</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <a class="logo" href="#home">🛡️ CyberSafe</a>
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#passwords">Passwords</a>
+      <a href="#privacy">Data Privacy</a>
+      <a href="#scams">Scam Awareness</a>
+      <a href="#quiz">Quiz</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <span class="tag">CEP COMMUNITY AWARENESS PROJECT</span>
+        <h1>Protect Your Digital Life.<br>
+          <span>Stay CyberSafe.</span></h1>
+        <p>
+          Learn how to create strong passwords, protect your personal
+          information, and stay safe from online scams.
+        </p>
+        <div class="hero-buttons">
+          <a class="btn primary" href="#passwords">Explore Safety Tips</a>
+          <a class="btn secondary" href="#quiz">Take the Quiz →</a>
+        </div>
+        <div class="hero-note">🔐 Think Before You Click. Protect Before You Share.</div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="glow"></div>
+        <div class="shield">🛡️</div>
+        <div class="float-card card-one">🔒 Strong Passwords</div>
+        <div class="float-card card-two">✓ Privacy Protected</div>
+        <div class="float-card card-three">🛡️ Stay Alert Online</div>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div><strong>01</strong><span>Secure Accounts</span></div>
+      <div><strong>02</strong><span>Protect Personal Data</span></div>
+      <div><strong>03</strong><span>Identify Online Scams</span></div>
+      <div><strong>04</strong><span>Spread Awareness</span></div>
+    </section>
+
+    <section class="section" id="passwords">
+      <div class="section-heading">
+        <span class="tag">ACCOUNT SECURITY</span>
+        <h2>Password Hygiene</h2>
+        <p>Good password habits are your first line of digital defence.</p>
+      </div>
+
+      <div class="grid three">
+        <article class="feature-card">
+          <div class="icon">🔑</div>
+          <h3>Use Long Passwords</h3>
+          <p>Choose long, hard-to-guess passwords or passphrases. Avoid names,
+            birthdays, and predictable patterns.</p>
+        </article>
+        <article class="feature-card">
+          <div class="icon">🔄</div>
+          <h3>Never Reuse Passwords</h3>
+          <p>Use a different password for every important account. Reusing
+            passwords can put multiple accounts at risk.</p>
+        </article>
+        <article class="feature-card">
+          <div class="icon">🔐</div>
+          <h3>Enable MFA</h3>
+          <p>Multi-factor authentication adds another layer of protection
+            beyond your password.</p>
+        </article>
+        <article class="feature-card">
+          <div class="icon">🗝️</div>
+          <h3>Use a Password Manager</h3>
+          <p>A reputable password manager can create and store unique
+            passwords securely.</p>
+        </article>
+        <article class="feature-card">
+          <div class="icon">🚫</div>
+          <h3>Keep Passwords Secret</h3>
+          <p>Never share your password or OTP with callers, strangers,
+            or people claiming to be support staff.</p>
+        </article>
+        <article class="feature-card">
+          <div class="icon">⚠️</div>
+          <h3>Act on Suspicious Activity</h3>
+          <p>If an account may be compromised, change its password using
+            the official website and review account sessions.</p>
+        </article>
+      </div>
+
+      <div class="checker">
+        <div>
+          <span class="tag">INTERACTIVE TOOL</span>
+          <h3>Password Strength Checker</h3>
+          <p>Test a sample password locally. Never enter a real password
+            that you use for any account.</p>
+          <label for="passwordInput">Enter a sample password</label>
+          <div class="password-input">
+            <input type="password" id="passwordInput"
+              placeholder="Try a fictional password"
+              autocomplete="off">
+            <button type="button" id="togglePassword"
+              aria-label="Show password">Show</button>
+          </div>
+          <div class="strength-track">
+            <div id="strengthBar"></div>
+          </div>
+          <p id="strengthText" aria-live="polite">Your result will appear here.</p>
+          <p class="small">This is a basic educational estimate, not a security audit.</p>
+        </div>
+        <div class="checklist">
+          <h4>What makes a password stronger?</h4>
+          <p id="lengthRule">○ Use 15 or more characters</p>
+          <p id="upperRule">○ Include varied character types</p>
+          <p id="lowerRule">○ Avoid predictable words or patterns</p>
+          <p id="numberRule">○ Use a unique password for each account</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="privacy">
+      <div class="section-heading">
+        <span class="tag">PERSONAL DATA PROTECTION</span>
+        <h2>Your Data. Your Responsibility.</h2>
+        <p>Small privacy habits can make a big difference.</p>
+      </div>
+      <div class="grid three">
+        <article class="feature-card">
+          <div class="icon">📱</div>
+          <h3>Review App Permissions</h3>
+          <p>Allow camera, microphone, location, and contacts access only
+            when needed.</p>
+        </article>
+        <article class="feature-card">
+          <div class="icon">👤</div>
+          <h3>Limit Personal Sharing</h3>
+          <p>Avoid publicly posting your address, identity documents,
+            travel plans, or sensitive personal details.</p>
+        </article>
+        <article class="feature-card">
+          <div class="icon">🌐</div>
+          <h3>Browse Safely</h3>
+          <p>Use trusted websites, check the domain, and avoid entering
+            sensitive information through suspicious links.</p>
+        </article>
+        <article class="feature-card">
+          <div class="icon">📶</div>
+          <h3>Secure Your Devices</h3>
+          <p>Keep software updated, lock your devices, and use trusted
+            networks for sensitive activities.</p>
+        </article>
+        <article class="feature-card">
+          <div class="icon">🗑️</div>
+          <h3>Delete Responsibly</h3>
+          <p>Remove unnecessary personal information and securely dispose
+            of old documents and storage devices.</p>
+        </article>
+        <article class="feature-card">
+          <div class="icon">💾</div>
+          <h3>Back Up Important Data</h3>
+          <p>Keep suitable backups of important files and protect access
+            to those backups.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="scams">
+      <div class="section-heading">
+        <span class="tag">THINK BEFORE YOU CLICK</span>
+        <h2>Recognise Online Scams</h2>
+        <p>Pause, verify, and report suspicious activity.</p>
+      </div>
+      <div class="scam-list">
+        <article class="scam-item">
+          <span class="scam-icon">📧</span>
+          <div><h3>Phishing Messages</h3>
+            <p>Fake emails or messages may imitate banks, delivery services,
+              or trusted organisations to steal information.</p></div>
+          <span class="warning">VERIFY LINKS</span>
+        </article>
+        <article class="scam-item">
+          <span class="scam-icon">📲</span>
+          <div><h3>OTP and UPI Fraud</h3>
+            <p>Never disclose an OTP, PIN, or password. Verify payment
+              requests and remember that receiving money via UPI does
+              not require entering your UPI PIN.</p></div>
+          <span class="warning">NEVER SHARE OTPs</span>
+        </article>
+        <article class="scam-item">
+          <span class="scam-icon">🎭</span>
+          <div><h3>Impersonation Scams</h3>
+            <p>Scammers may pretend to be customer care agents, officials,
+              friends, or family members. Verify independently.</p></div>
+          <span class="warning">VERIFY IDENTITY</span>
+        </article>
+        <article class="scam-item">
+          <span class="scam-icon">📥</span>
+          <div><h3>Suspicious Downloads</h3>
+            <p>Avoid unknown attachments, unofficial apps, and unexpected
+              files that request unnecessary permissions.</p></div>
+          <span class="warning">DOWNLOAD SAFELY</span>
+        </article>
+      </div>
+
+      <div class="emergency">
+        <h3>Suspect a cybercrime in India?</h3>
+        <p>Contact the official cybercrime reporting service. For financial
+          cyber fraud, call 1930 as soon as possible.</p>
+        <a class="btn primary" href="https://cybercrime.gov.in/"
+          target="_blank" rel="noopener noreferrer">Visit Cyber Crime Portal ↗</a>
+        <p class="small">Use official government channels and verify contact details.</p>
+      </div>
+    </section>
+
+    <section class="section alt" id="quiz">
+      <div class="section-heading">
+        <span class="tag">TEST YOUR KNOWLEDGE</span>
+        <h2>Cyber Safety Quiz</h2>
+        <p>Answer these five questions and check what you have learned.</p>
+      </div>
+      <div class="quiz-box">
+        <div class="quiz-top">
+          <span id="questionCount">Question 1 of 5</span>
+          <span id="scoreLabel">Score: 0</span>
+        </div>
+        <div class="progress-track"><div id="quizProgress"></div></div>
+        <h3 id="question">Loading question...</h3>
+        <div id="options" class="options"></div>
+        <p id="quizFeedback" aria-live="polite"></p>
+        <div class="quiz-actions">
+          <button id="nextButton" class="btn primary" disabled>Next Question →</button>
+          <button id="restartButton" class="btn secondary" hidden>Try Again</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="campaign">
+      <div class="section-heading">
+        <span class="tag">COMMUNITY ENGAGEMENT</span>
+        <h2>Spread Cyber Awareness</h2>
+        <p>Safer digital habits begin with awareness and action.</p>
+      </div>
+      <div class="campaign-banner">
+        <div>
+          <h2>Be Smart. Be Secure. Be CyberSafe.</h2>
+          <p>Share these practices with your friends, classmates,
+            family members, and community.</p>
+        </div>
+        <a class="btn primary" href="#feedback">Give Feedback ↓</a>
+      </div>
+    </section>
+
+    <section class="section alt" id="feedback">
+      <div class="section-heading">
+        <span class="tag">YOUR VOICE MATTERS</span>
+        <h2>Campaign Feedback</h2>
+        <p>Tell us what you learned from this awareness website.</p>
+      </div>
+      <form id="feedbackForm" class="feedback-form">
+        <label for="visitorName">Name (optional)</label>
+        <input id="visitorName" name="name" maxlength="80"
+          placeholder="Enter your name">
+
+        <label for="visitorEmail">Email (optional)</label>
+        <input id="visitorEmail" name="email" type="email" maxlength="150"
+          placeholder="Enter your email">
+
+        <label for="feedbackTopic">Most useful topic</label>
+        <select id="feedbackTopic" name="topic" required>
+          <option value="">Choose a topic</option>
+          <option>Password Hygiene</option>
+          <option>Personal Data Protection</option>
+          <option>Online Scam Awareness</option>
+          <option>Cyber Safety Quiz</option>
+        </select>
+
+        <label for="feedbackMessage">Your feedback</label>
+        <textarea id="feedbackMessage" name="message" rows="4"
+          maxlength="1000" placeholder="What did you learn?" required></textarea>
+
+        <button class="btn primary" type="submit">Submit Feedback</button>
+        <p id="formMessage" aria-live="polite"></p>
+        <p class="small">Demonstration form: feedback is not transmitted or saved.</p>
+      </form>
+    </section>
+
+    <section class="section references">
+      <div class="section-heading">
+        <span class="tag">LEARN MORE</span>
+        <h2>Official Cyber Safety Resources</h2>
+      </div>
+      <ul>
+        <li><a href="https://www.cert-in.org.in/" target="_blank"
+          rel="noopener noreferrer">CERT-In — Indian Computer Emergency Response Team</a></li>
+        <li><a href="https://cybercrime.gov.in/" target="_blank"
+          rel="noopener noreferrer">National Cyber Crime Reporting Portal</a></li>
+        <li><a href="https://www.indiacode.nic.in/" target="_blank"
+          rel="noopener noreferrer">India Code — Indian legislation</a></li>
+        <li><a href="https://www.cisa.gov/secure-our-world"
+          target="_blank" rel="noopener noreferrer">CISA — Secure Our World</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <a class="logo" href="#home">🛡️ CyberSafe</a>
+    <p>Password Hygiene and Personal Data Protection Campaign</p>
+    <p>Community Engagement Project (CEP)</p>
+    <p class="small">Educational project. Stay informed, stay protected.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
